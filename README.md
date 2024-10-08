@@ -38,7 +38,7 @@ package main
 
 import (
     "fmt"
-    "queue"
+    "github.com/jelech/redis-preemptive-queue"
 )
 
 func main() {
@@ -104,7 +104,3 @@ q.RegistryWorks([]queue.Qwork{
 
 - 基于 [Redis](https://redis.io/) 构建
 - 受分布式任务队列系统的启发
-
-## 联系方式
-
-如果您有任何问题或建议，请随时联系作者：`jelech@hotmail.com`。
